@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    username: root
+    password: Karutharan1979@
+    url : jdbc:mysql://localhost:3306/SpringRest
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true  
